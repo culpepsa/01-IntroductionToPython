@@ -28,8 +28,6 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
-
-
 import rosegraphics as rg
 window = rg.TurtleWindow()
 window.tracer(75)
@@ -45,3 +43,4 @@ for k in range(500):
 for k in range(250):
     culpepper.right(100)
     culpepper.backward(k)
+window.close_on_mouse_click()
