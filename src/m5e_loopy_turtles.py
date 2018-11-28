@@ -77,16 +77,16 @@ for k in range(6):
     blue_turtle.pen_down()
     size = size - 12
 
-###############################################################################
-# Example 2.  It shows how to speed up the animation.
-###############################################################################
+# ###############################################################################
+# # Example 2.  It shows how to speed up the animation.
+# ###############################################################################
 window.tracer(100)  # Bigger numbers make the animation run faster
 
 another_turtle = rg.SimpleTurtle('triangle')
 another_turtle.pen = rg.Pen('magenta', 1)
 another_turtle.backward(50)
 
-# The name k takes on the values 0, 1, 2, ... 499 as the loop runs
+# # The name k takes on the values 0, 1, 2, ... 499 as the loop runs
 for k in range(500):
     another_turtle.left(91)
     another_turtle.forward(k)
