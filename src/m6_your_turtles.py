@@ -45,5 +45,3 @@ for k in range(500):
 for k in range(250):
     culpepper.right(100)
     culpepper.backward(k)
-
-window.close_on_mouse_click()
